@@ -1,22 +1,21 @@
-.rotate-0 {
-  transform: rotate(0deg);
-}
-
-.hover\:rotate-0:hover {
-  transform: rotate(0deg);
-}
-
-.focus\:rotate-0:focus {
-  transform: rotate(0deg);
-}
-
-/* @responsive {
+@media (min-width: 640px) {
   .rotate-0 {
     transform: rotate(0deg);
   }
+}
 
+@media (min-width: 1536px) {
   .rotate-0 {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
   }
 }
- */
+
+@media (min-width: 640px) {
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+}
+
+.content-area{
+  height: 0.625rem;
+}

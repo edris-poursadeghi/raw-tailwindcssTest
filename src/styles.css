@@ -1,16 +1,21 @@
- @variants hover, focus {
+@media screen(sm) {
   .rotate-0 {
     transform: rotate(0deg);
   }
 }
- 
-/* @responsive {
-  .rotate-0 {
-    transform: rotate(0deg);
-  }
 
+@media screen(2xl) {
   .rotate-0 {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
   }
 }
- */
+
+@screen sm {
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+}
+
+.content-area{
+    height: theme('spacing[2.5]');
+}
